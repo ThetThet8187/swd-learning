@@ -1,475 +1,656 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap</title>
-    <style>
-      body {
-        height: 7000px;
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-  </head>
 
-  <body>
-    <h1>Min Ga Lar Par</h1>
-    <div class="w-100 bg-black p-3 sticky-top"></div>
-    <div class=" bg-info p-3 position-fixed" style="z-index: 10; bottom: 30px; right: 30px"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap</title>
+  <style>
+    body {
+      height: 7000px;
+    }
 
-    <div class="bg-white-50 shadow mx-auto my-3 py-5 w-25"></div>
-    <div class="bg-white shadow-none mx-auto my-3 py-5 w-25"></div>
-    <div class="bg-white shadow-sm mx-auto my-3 py-5 w-25"></div>
-    <div class="bg-white shadow-lg mx-auto my-3 py-5 w-25"></div>
-    <!-- <h1>This is header.</h1> -->
+    .slide-img {
+      height: 400px;
+      object-fit: cover;
+      object-position: top;
+    }
+  </style>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
 
-    <div
-      class="bg-white-50 border border-3 mx-auto my-3 w-50 overflow-scroll p-3"
-      style="height: 200px"
-    >
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat soluta
-      amet alias corrupti dolorum eius ea, expedita numquam dicta quae iure
-      beatae dolor debitis, sunt nemo voluptatum nesciunt nisi vero! Lorem ipsum
-      dolor sit amet consectetur, adipisicing elit. Praesentium fugiat dolore
-      possimus distinctio maiores expedita rem, veritatis quaerat, dignissimos,
-      aspernatur consequatur ab reiciendis quasi sit dolor quia fuga
-      exercitationem vel.
-    </div>
+<body>
+  <h1>Min Ga Lar Par</h1>
+  <div class="w-100 bg-black p-3 sticky-top"></div>
+  <div class="bg-info p-3 position-fixed" style="z-index: 10; bottom: 30px; right: 30px"></div>
 
-    <div class="">
-      <img src="./img/profile.jpg" class="w-25" alt="" />
-      <img src="./img/profile.jpg" class="w-25 opacity-75" alt="" />
-      <img src="./img/profile.jpg" class="w-25 opacity-50" alt="" />
-    </div>
+  <div class="bg-white-50 shadow mx-auto my-3 py-5 w-25"></div>
+  <div class="bg-white shadow-none mx-auto my-3 py-5 w-25"></div>
+  <div class="bg-white shadow-sm mx-auto my-3 py-5 w-25"></div>
+  <div class="bg-white shadow-lg mx-auto my-3 py-5 w-25"></div>
+  <!-- <h1>This is header.</h1> -->
 
-    <hr />
+  <div class="bg-white-50 border border-3 mx-auto my-3 w-50 overflow-scroll p-3" style="height: 200px">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat soluta
+    amet alias corrupti dolorum eius ea, expedita numquam dicta quae iure
+    beatae dolor debitis, sunt nemo voluptatum nesciunt nisi vero! Lorem ipsum
+    dolor sit amet consectetur, adipisicing elit. Praesentium fugiat dolore
+    possimus distinctio maiores expedita rem, veritatis quaerat, dignissimos,
+    aspernatur consequatur ab reiciendis quasi sit dolor quia fuga
+    exercitationem vel.
+  </div>
 
-    <div
-      class="m-3 p-3 d-flex flex-column-reverse justify-content-between align-items-start border border-3 border-primary"
-      style="height: 400px"
-    >
-      <div class="p-5 bg-primary"></div>
-      <div class="p-5 bg-secondary"></div>
-      <div class="p-5 bg-info"></div>
-    </div>
+  <div class="">
+    <img src="./img/profile.jpg" class="w-25" alt="" />
+    <img src="./img/profile.jpg" class="w-25 opacity-75" alt="" />
+    <img src="./img/profile.jpg" class="w-25 opacity-50" alt="" />
+  </div>
 
-    <hr />
+  <hr />
 
-    <div class="m-3 p-3 border border-3 border-primary">
-      <img
-        src="./img/profile.jpg"
-        class="w-25 mb-3 ms-3 float-end rounded-3 shadow-lg"
-        alt=""
-      />
-      <p class="mb-0">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-        molestiae nesciunt rem possimus labore quas provident facere fugiat
-        laborum, ea expedita quisquam nam recusandae quibusdam maiores enim,
-        harum assumenda suscipit!
-      </p>
-      <div class="clearfix"></div>
-      <h2>Hello Hello</h2>
-      <!-- <div class=" clearfix"></div> -->
-    </div>
+  <div
+    class="m-3 p-3 d-flex flex-column-reverse justify-content-between align-items-start border border-3 border-primary"
+    style="height: 400px">
+    <div class="p-5 bg-primary"></div>
+    <div class="p-5 bg-secondary"></div>
+    <div class="p-5 bg-info"></div>
+  </div>
 
-    <hr />
+  <hr />
 
-    <p class="text-center fs-1">Hello World!!!!!!!</p>
-    <p class="text-center fs-3">Hello World!!!!!!!</p>
-    <p class="text-center fs-5">Hello World!!!!!!!</p>
-    <p class="fw-bold">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus natus
-      veritatis dolor assumenda omnis at ullam incidunt quas, recusandae
-      perspiciatis nam reiciendis impedit molestiae vel. Quo pariatur ducimus
-      reiciendis consectetur.
+  <div class="m-3 p-3 border border-3 border-primary">
+    <img src="./img/profile.jpg" class="w-25 mb-3 ms-3 float-end rounded-3 shadow-lg" alt="" />
+    <p class="mb-0">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+      molestiae nesciunt rem possimus labore quas provident facere fugiat
+      laborum, ea expedita quisquam nam recusandae quibusdam maiores enim,
+      harum assumenda suscipit!
     </p>
-    <p class="fw-light">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus natus
-      veritatis dolor assumenda omnis at ullam incidunt quas, recusandae
-      perspiciatis nam reiciendis impedit molestiae vel. Quo pariatur ducimus
-      reiciendis consectetur.
-    </p>
-    <p class="fw-lighter">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus natus
-      veritatis dolor assumenda omnis at ullam incidunt quas, recusandae
-      perspiciatis nam reiciendis impedit molestiae vel. Quo pariatur ducimus
-      reiciendis consectetur.
-    </p>
-    <p class="m-3 lh-lg">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus natus
-      veritatis dolor assumenda omnis at ullam incidunt quas, recusandae
-      perspiciatis nam reiciendis impedit molestiae vel. Quo pariatur ducimus
-      reiciendis consectetur. Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Temporibus natus veritatis dolor assumenda omnis at ullam incidunt
-      quas, recusandae perspiciatis nam reiciendis impedit molestiae vel. Quo
-      pariatur ducimus reiciendis consectetur.Lorem ipsum dolor sit amet
-      consectetur adipisicing elit. Temporibus natus veritatis dolor assumenda
-      omnis at ullam incidunt quas, recusandae perspiciatis nam reiciendis
-      impedit molestiae vel. Quo pariatur ducimus reiciendis consectetur.
-    </p>
+    <div class="clearfix"></div>
+    <h2>Hello Hello</h2>
+    <!-- <div class=" clearfix"></div> -->
+  </div>
 
-    <p class="w-25 border border-3 border-primary m-3 p-2 text-break">
-      Lorem ipsum dolor sit, ametaapidaidpaaponsectetur adipisicing elit. Neque,
-      laboriosam?
-    </p>
+  <hr />
 
-    <p class="badge bg-primary text-wrap" style="width: 3rem">
-      Lorem ipsum dolor sit.
-    </p>
+  <p class="text-center fs-1">Hello World!!!!!!!</p>
+  <p class="text-center fs-3">Hello World!!!!!!!</p>
+  <p class="text-center fs-5">Hello World!!!!!!!</p>
+  <p class="fw-bold">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus natus
+    veritatis dolor assumenda omnis at ullam incidunt quas, recusandae
+    perspiciatis nam reiciendis impedit molestiae vel. Quo pariatur ducimus
+    reiciendis consectetur.
+  </p>
+  <p class="fw-light">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus natus
+    veritatis dolor assumenda omnis at ullam incidunt quas, recusandae
+    perspiciatis nam reiciendis impedit molestiae vel. Quo pariatur ducimus
+    reiciendis consectetur.
+  </p>
+  <p class="fw-lighter">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus natus
+    veritatis dolor assumenda omnis at ullam incidunt quas, recusandae
+    perspiciatis nam reiciendis impedit molestiae vel. Quo pariatur ducimus
+    reiciendis consectetur.
+  </p>
+  <p class="m-3 lh-lg">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus natus
+    veritatis dolor assumenda omnis at ullam incidunt quas, recusandae
+    perspiciatis nam reiciendis impedit molestiae vel. Quo pariatur ducimus
+    reiciendis consectetur. Lorem ipsum dolor sit amet consectetur adipisicing
+    elit. Temporibus natus veritatis dolor assumenda omnis at ullam incidunt
+    quas, recusandae perspiciatis nam reiciendis impedit molestiae vel. Quo
+    pariatur ducimus reiciendis consectetur.Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Temporibus natus veritatis dolor assumenda
+    omnis at ullam incidunt quas, recusandae perspiciatis nam reiciendis
+    impedit molestiae vel. Quo pariatur ducimus reiciendis consectetur.
+  </p>
 
-    <hr />
+  <p class="w-25 border border-3 border-primary m-3 p-2 text-break">
+    Lorem ipsum dolor sit, ametaapidaidpaaponsectetur adipisicing elit. Neque,
+    laboriosam?
+  </p>
 
-    <h3 class="mb-3">Button Component</h3>
+  <p class="badge bg-primary text-wrap" style="width: 3rem">
+    Lorem ipsum dolor sit.
+  </p>
 
-    <button class="btn btn-sm btn-primary">Click Me</button>
-    <button class="btn btn-sm btn-outline-primary">Click Me</button>
+  <hr />
 
-    <button class="btn btn-sm btn-secondary">Click Me</button>
-    <button class="btn btn-sm btn-outline-secondary">Click Me</button>
+  <h3 class="mb-3">Button Component</h3>
 
-    <button class="btn btn-sm btn-warning">Click Me</button>
-    <button class="btn btn-sm btn-outline-warning">Click Me</button>
+  <button class="btn btn-sm btn-primary">Click Me</button>
+  <button class="btn btn-sm btn-outline-primary">Click Me</button>
 
-    <br />
-    <br />
+  <button class="btn btn-sm btn-secondary">Click Me</button>
+  <button class="btn btn-sm btn-outline-secondary">Click Me</button>
 
-    <button class="btn btn-primary">Click Me</button>
-    <button class="btn btn-outline-primary">Click Me</button>
+  <button class="btn btn-sm btn-warning">Click Me</button>
+  <button class="btn btn-sm btn-outline-warning">Click Me</button>
 
-    <button class="btn btn-secondary">Click Me</button>
-    <button class="btn btn-outline-secondary">Click Me</button>
+  <br />
+  <br />
 
-    <button class="btn btn-warning">Click Me</button>
-    <button class="btn btn-outline-warning">Click Me</button>
+  <button class="btn btn-primary">Click Me</button>
+  <button class="btn btn-outline-primary">Click Me</button>
 
-    <br />
-    <br />
+  <button class="btn btn-secondary">Click Me</button>
+  <button class="btn btn-outline-secondary">Click Me</button>
 
-    <button class="btn btn-lg btn-primary">Click Me</button>
-    <button class="btn btn-lg btn-outline-primary">Click Me</button>
+  <button class="btn btn-warning">Click Me</button>
+  <button class="btn btn-outline-warning">Click Me</button>
 
-    <button class="btn btn-lg btn-secondary">Click Me</button>
-    <button class="btn btn-lg btn-outline-secondary">Click Me</button>
+  <br />
+  <br />
 
-    <button class="btn btn-lg btn-warning">Click Me</button>
-    <button class="btn btn-lg btn-outline-warning">Click Me</button>
+  <button class="btn btn-lg btn-primary">Click Me</button>
+  <button class="btn btn-lg btn-outline-primary">Click Me</button>
 
-    <br />
-    <br />
+  <button class="btn btn-lg btn-secondary">Click Me</button>
+  <button class="btn btn-lg btn-outline-secondary">Click Me</button>
 
-    <div class="btn-group">
-      <button class="btn btn-outline-primary active">
-        <i class="bi bi-house fa-fw"></i>
-      </button>
-      <button class="btn btn-outline-primary">
-        <i class="bi bi-trash fa-fw"></i>
-      </button>
-      <button class="btn btn-outline-primary">
-        <i class="bi bi-pencil fa-fw"></i>
-      </button>
-    </div>
+  <button class="btn btn-lg btn-warning">Click Me</button>
+  <button class="btn btn-lg btn-outline-warning">Click Me</button>
 
-    <div class="btn-group">
-      <button class="btn btn-primary active">
-        <i class="fa-solid fa-home fa-fw"></i>
-      </button>
-      <button class="btn btn-primary">
-        <i class="fa-solid fa-trash fa-fw"></i>
-      </button>
-      <button class="btn btn-primary">
-        <i class="fa-solid fa-pencil fa-fw"></i>
-      </button>
-    </div>
+  <br />
+  <br />
 
-    <hr />
-
-    <h3 class="mb-3">Alert Component</h3>
-
-    <div
-      class="alert alert-danger rounded-0 border-0 border-start border-5 border-danger"
-    >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis
-      ipsum excepturi molestias libero quae perferendis iusto maiores placeat?
-      Dolore alias facere reiciendis quis optio dolor laborum, libero et quas.
-    </div>
-
-    <div class="alert alert-success alert-dismissible">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis
-      ipsum excepturi molestias libero quae perferendis iusto maiores placeat?
-      Dolore alias facere reiciendis quis optio dolor laborum, libero et quas.
-      <button class="btn-close" data-bs-dismiss="alert"></button>
-    </div>
-
-    <div class="alert alert-primary">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis
-      ipsum excepturi molestias libero quae perferendis iusto maiores placeat?
-      Dolore alias facere reiciendis quis optio dolor laborum, libero et quas.
-    </div>
-
-    <hr />
-
-    <h3>Badges</h3>
-
-    <h1>New Items <span class="badge bg-primary rounded-pill">375</span></h1>
-    <p>Javascript <span class="badge bg-warning">New Book</span></p>
-
-    <button type="button" class="btn btn-primary position-relative me-3">
-      Inbox
-      <span
-        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-      >
-        99+
-        <span class="visually-hidden">unread messages</span>
-      </span>
+  <div class="btn-group">
+    <button class="btn btn-outline-primary active">
+      <i class="bi bi-house fa-fw"></i>
     </button>
-    <button type="button" class="btn btn-primary position-relative">
-      Profile
-      <span
-        class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle"
-      >
-        <span class="visually-hidden">New alerts</span>
-      </span>
+    <button class="btn btn-outline-primary">
+      <i class="bi bi-trash fa-fw"></i>
     </button>
+    <button class="btn btn-outline-primary">
+      <i class="bi bi-pencil fa-fw"></i>
+    </button>
+  </div>
 
-    <hr />
-
-    <h3>Breadcrumb</h3>
-    <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="#">Home</a>
-        </li>
-        <li class="breadcrumb-item">
-          <a href="#">Library</a>
-        </li>
-        <li class="breadcrumb-item">
-          <a href="#">User</a>
-        </li>
-        <li class="breadcrumb-item active">Javascript</li>
-      </ol>
-    </nav>
-
-    <hr />
-
-    <h4>List UI</h4>
-    <ul class="list-group list-group-flush mb-3">
-      <li class="list-group-item active">Apple</li>
-      <li class="list-group-item">Apple</li>
-      <li class="list-group-item">Apple</li>
-      <li class="list-group-item">Apple</li>
-      <li class="list-group-item disabled">Apple</li>
-    </ul>
-
-    <ul class="list-group mb-3">
-      <a href="#" class="list-group-item list-group-item-action active"
-        >Orange</a
-      >
-      <a href="#" class="list-group-item list-group-item-action">Orange</a>
-      <a
-        href="#"
-        class="list-group-item list-group-item-action d-flex justify-content-between"
-      >
-        Orange
-        <div>
-          <button class="btn btn-sm btn-danger">
-            <i class="bi bi-trash"></i>
-          </button>
-          <button class="btn btn-sm btn-primary">
-            <i class="bi bi-pencil"></i>
-          </button>
-        </div>
-      </a>
-      <a href="#" class="list-group-item list-group-item-action">Orange</a>
-      <a href="#" class="list-group-item list-group-item-action disabled"
-        >Orange</a
-      >
-    </ul>
-
-    <ul class="list-group">
-      <li class="list-group-item d-flex align-items-start">
-        <div>
-          <h4>This is title 1</h4>
-          <p class="mb-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
-            cumque!
-          </p>
-        </div>
-        <span class="badge bg-primary">35</span>
-      </li>
-      <li
-        class="list-group-item list-group-item-primary d-flex align-items-start"
-      >
-        <div>
-          <h4>This is title 2</h4>
-          <p class="mb-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
-            cumque!
-          </p>
-        </div>
-        <span class="badge bg-primary">35</span>
-      </li>
-      <li class="list-group-item d-flex align-items-start">
-        <div>
-          <h4>This is title 3</h4>
-          <p class="mb-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
-            cumque!
-          </p>
-        </div>
-        <span class="badge bg-primary">35</span>
-      </li>
-    </ul>
-
-    <hr />
-
-    <h3>Pagination</h3>
-    <ul class="pagination pagination-lg">
-      <li class="page-item">
-        <a href="#" class="page-link">
-          <i class="bi bi-arrow-left"></i>
-        </a>
-      </li>
-      <li class="page-item active">
-        <a href="#" class="page-link">1</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">2</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">3</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">4</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">
-          <i class="bi bi-arrow-right"></i>
-        </a>
-      </li>
-    </ul>
-
-    <ul class="pagination">
-      <li class="page-item">
-        <a href="#" class="page-link">
-          <i class="bi bi-arrow-left"></i>
-        </a>
-      </li>
-      <li class="page-item active">
-        <a href="#" class="page-link">1</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">2</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">3</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">4</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">
-          <i class="bi bi-arrow-right"></i>
-        </a>
-      </li>
-    </ul>
-
-    <ul class="pagination pagination-sm">
-      <li class="page-item">
-        <a href="#" class="page-link">
-          <i class="bi bi-arrow-left"></i>
-        </a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link active">1</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">2</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">3</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">4</a>
-      </li>
-      <li class="page-item">
-        <a href="#" class="page-link">
-          <i class="bi bi-arrow-right"></i>
-        </a>
-      </li>
-    </ul>
-
-    <hr />
-
-    <h3>Progress</h3>
-    <div class="progress">
-      <div class="progress-bar" style="width: 30%"></div>
-    </div>
-
-    <br />
-
-    <div class="progress" style="height: 10px">
-      <div
-        class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
-        style="width: 70%"
-      >
-        70%
-      </div>
-    </div>
-
-    <br />
-
-    <div class="progress">
-      <div
-        class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-        style="width: 80%"
-      >
-        80%
-      </div>
-    </div>
-
-    <hr />
-
-    <h3>Spiner</h3>
-
-    <div class="spinner-border text-danger"></div>
-    <div class="spinner-grow text-danger"></div>
-
-    <div class="spinner-border spinner-border-sm"></div>
-    <div class="spinner-grow spinner-grow-sm"></div>
-
-    <div class="spinner-border" style="width: 100px; height: 100px"></div>
-    <div class="spinner-grow"></div>
-
-    <div class="spinner-border"></div>
-    <div class="spinner-grow"></div>
-
-    <br />
-
+  <div class="btn-group">
+    <button class="btn btn-primary active">
+      <i class="fa-solid fa-home fa-fw"></i>
+    </button>
     <button class="btn btn-primary">
-      <span class="spinner-border spinner-border-sm me-2"></span>
-      Loading
+      <i class="fa-solid fa-trash fa-fw"></i>
     </button>
-    <button class="btn btn-warning">
-      <span class="spinner-grow spinner-grow-sm me-2"></span>
-      Loading
+    <button class="btn btn-primary">
+      <i class="fa-solid fa-pencil fa-fw"></i>
+    </button>
+  </div>
+
+  <hr />
+
+  <h3 class="mb-3">Alert Component</h3>
+
+  <div class="alert alert-danger rounded-0 border-0 border-start border-5 border-danger">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis
+    ipsum excepturi molestias libero quae perferendis iusto maiores placeat?
+    Dolore alias facere reiciendis quis optio dolor laborum, libero et quas.
+  </div>
+
+  <div class="alert alert-success alert-dismissible">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis
+    ipsum excepturi molestias libero quae perferendis iusto maiores placeat?
+    Dolore alias facere reiciendis quis optio dolor laborum, libero et quas.
+    <button class="btn-close" data-bs-dismiss="alert"></button>
+  </div>
+
+  <div class="alert alert-primary">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis
+    ipsum excepturi molestias libero quae perferendis iusto maiores placeat?
+    Dolore alias facere reiciendis quis optio dolor laborum, libero et quas.
+  </div>
+
+  <hr />
+
+  <h3>Badges</h3>
+
+  <h1>New Items <span class="badge bg-primary rounded-pill">375</span></h1>
+  <p>Javascript <span class="badge bg-warning">New Book</span></p>
+
+  <button type="button" class="btn btn-primary position-relative me-3">
+    Inbox
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      99+
+      <span class="visually-hidden">unread messages</span>
+    </span>
+  </button>
+  <button type="button" class="btn btn-primary position-relative">
+    Profile
+    <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+      <span class="visually-hidden">New alerts</span>
+    </span>
+  </button>
+
+  <hr />
+
+  <h3>Breadcrumb</h3>
+  <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="#">Home</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="#">Library</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="#">User</a>
+      </li>
+      <li class="breadcrumb-item active">Javascript</li>
+    </ol>
+  </nav>
+
+  <hr />
+
+  <h4>List UI</h4>
+  <ul class="list-group list-group-flush mb-3">
+    <li class="list-group-item active">Apple</li>
+    <li class="list-group-item">Apple</li>
+    <li class="list-group-item">Apple</li>
+    <li class="list-group-item">Apple</li>
+    <li class="list-group-item disabled">Apple</li>
+  </ul>
+
+  <ul class="list-group mb-3">
+    <a href="#" class="list-group-item list-group-item-action active">Orange</a>
+    <a href="#" class="list-group-item list-group-item-action">Orange</a>
+    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between">
+      Orange
+      <div>
+        <button class="btn btn-sm btn-danger">
+          <i class="bi bi-trash"></i>
+        </button>
+        <button class="btn btn-sm btn-primary">
+          <i class="bi bi-pencil"></i>
+        </button>
+      </div>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">Orange</a>
+    <a href="#" class="list-group-item list-group-item-action disabled">Orange</a>
+  </ul>
+
+  <ul class="list-group">
+    <li class="list-group-item d-flex align-items-start">
+      <div>
+        <h4>This is title 1</h4>
+        <p class="mb-0">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+          cumque!
+        </p>
+      </div>
+      <span class="badge bg-primary">35</span>
+    </li>
+    <li class="list-group-item list-group-item-primary d-flex align-items-start">
+      <div>
+        <h4>This is title 2</h4>
+        <p class="mb-0">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+          cumque!
+        </p>
+      </div>
+      <span class="badge bg-primary">35</span>
+    </li>
+    <li class="list-group-item d-flex align-items-start">
+      <div>
+        <h4>This is title 3</h4>
+        <p class="mb-0">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+          cumque!
+        </p>
+      </div>
+      <span class="badge bg-primary">35</span>
+    </li>
+  </ul>
+
+  <hr />
+
+  <h3>Pagination</h3>
+  <ul class="pagination pagination-lg">
+    <li class="page-item">
+      <a href="#" class="page-link">
+        <i class="bi bi-arrow-left"></i>
+      </a>
+    </li>
+    <li class="page-item active">
+      <a href="#" class="page-link">1</a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link">2</a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link">3</a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link">4</a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link">
+        <i class="bi bi-arrow-right"></i>
+      </a>
+    </li>
+  </ul>
+
+  <ul class="pagination">
+    <li class="page-item">
+      <a href="#" class="page-link">
+        <i class="bi bi-arrow-left"></i>
+      </a>
+    </li>
+    <li class="page-item active">
+      <a href="#" class="page-link">1</a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link">2</a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link">3</a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link">4</a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link">
+        <i class="bi bi-arrow-right"></i>
+      </a>
+    </li>
+  </ul>
+
+  <ul class="pagination pagination-sm">
+    <li class="page-item">
+      <a href="#" class="page-link">
+        <i class="bi bi-arrow-left"></i>
+      </a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link active">1</a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link">2</a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link">3</a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link">4</a>
+    </li>
+    <li class="page-item">
+      <a href="#" class="page-link">
+        <i class="bi bi-arrow-right"></i>
+      </a>
+    </li>
+  </ul>
+
+  <hr />
+
+  <h3>Progress</h3>
+  <div class="progress">
+    <div class="progress-bar" style="width: 30%"></div>
+  </div>
+
+  <br />
+
+  <div class="progress" style="height: 10px">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 70%">
+      70%
+    </div>
+  </div>
+
+  <br />
+
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 80%">
+      80%
+    </div>
+  </div>
+
+  <hr />
+
+  <h3>Spiner</h3>
+
+  <div class="spinner-border text-danger"></div>
+  <div class="spinner-grow text-danger"></div>
+
+  <div class="spinner-border spinner-border-sm"></div>
+  <div class="spinner-grow spinner-grow-sm"></div>
+
+  <div class="spinner-border" style="width: 100px; height: 100px"></div>
+  <div class="spinner-grow"></div>
+
+  <div class="spinner-border"></div>
+  <div class="spinner-grow"></div>
+
+  <br />
+
+  <button class="btn btn-primary">
+    <span class="spinner-border spinner-border-sm me-2"></span>
+    Loading
+  </button>
+  <button class="btn btn-warning">
+    <span class="spinner-grow spinner-grow-sm me-2"></span>
+    Loading
+  </button>
+
+  <hr />
+
+  <button class="btn btn-info btn-lg position-relative">
+    Click Me
+    <span class="badge bg-danger position-absolute top-0 start-100 translate-middle">15</span>
+  </button>
+
+  <hr />
+
+  <h3>Modal UI</h3>
+
+  <!-- Button trigger modal -->
+  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBox">
+    Click here to text
+  </button>
+  <!-- Modal -->
+  <div class="modal" id="modalBox" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content p-5 position-relative">
+        <h3 class=" text-center">Hello, Min Ga Lar Par</h3>
+        <button class="btn btn-close position-absolute" style="top: 10px; right: 10px" data-bs-dismiss="modal"></button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <hr>
+
+  <h3>Offcanvas</h3>
+  <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+    aria-controls="offcanvasExample">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+    aria-controls="offcanvasExample">
+    Button with data-bs-target
+  </button>
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
+        etc.
+      </div>
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <h3>Slide Show</h3>
+
+  <div class=" carousel slide carousel-fade" id="img-slide" data-bs-ride=" carousel">
+    <div class=" carousel-indicators">
+      <button class=" active" data-bs-target="#img-slide" data-bs-slide-to="0"></button>
+      <button class="" data-bs-target="#img-slide" data-bs-slide-to="1"></button>
+      <button class="" data-bs-target="#img-slide" data-bs-slide-to="2"></button>
+    </div>
+    <div class=" carousel-inner">
+      <div class=" carousel-item active">
+        <img src="./img/1.jpg" class=" w-100" alt="">
+      </div>
+      <div class=" carousel-item">
+        <img src="./img/2.jpg" class=" w-100" alt="">
+      </div>
+      <div class=" carousel-item">
+        <img src="./img/3.jpg" class=" w-100" alt="">
+      </div>
+    </div>
+    <button class=" carousel-control-prev" data-bs-target="#img-slide" data-bs-slide="pre">
+      <span class=" carousel-control-prev-icon"></span>
+    </button>
+    <button class=" carousel-control-next" data-bs-target="#img-slide" data-bs-slide="next">
+      <span class=" carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <div class=" my-3 text-center">
+    <button class=" btn btn-outline-primary" data-bs-target="#img-slide" data-bs-slide="pre">
+      <i class=" bi bi-arrow-left"></i>
+    </button>
+    <button class=" btn btn-outline-primary" data-bs-target="#img-slide" data-bs-slide="next">
+      <i class=" bi bi-arrow-right"></i>
     </button>
 
-    <hr />
-
-    <button class="btn btn-info btn-lg position-relative">
-      Click Me
-      <span
-        class="badge bg-danger position-absolute top-0 start-100 translate-middle"
-        >15</span
-      >
+    <button class=" btn btn-outline-primary" data-bs-target="#img-slide" data-bs-slide-to="2">
+      <i class=" bi bi-0-circle"></i>
     </button>
+  </div>
 
-    <hr />
+  <hr>
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-  </body>
+  <div class=" carousel slide" id="dd">
+    <div class=" carousel-inner">
+      <div class=" carousel-item active">
+        <div class="px-5 py-4">
+          <div class=" p-4 bg-secondary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, natus incidunt placeat nam sit tempore atque
+            voluptatum ratione quisquam consectetur dolore animi? Quod similique minus nobis earum exercitationem quasi
+            perspiciatis.
+          </div>
+        </div>
+      </div>
+
+      <div class=" carousel-item">
+        <div class="px-5 py-4">
+          <div class=" p-4 bg-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, natus incidunt placeat nam sit tempore atque
+            voluptatum ratione quisquam consectetur dolore animi? Quod similique minus nobis earum exercitationem quasi
+            perspiciatis.
+          </div>
+        </div>
+      </div>
+
+      <div class=" carousel-item">
+        <div class="px-5 py-4">
+          <div class=" p-4 bg-warning">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, natus incidunt placeat nam sit tempore atque
+            voluptatum ratione quisquam consectetur dolore animi? Quod similique minus nobis earum exercitationem quasi
+            perspiciatis.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class=" my-3 text-center">
+    <button class=" btn btn-outline-primary" data-bs-target="#dd" data-bs-slide="pre">
+      <i class=" bi bi-arrow-left"></i>
+    </button>
+    <button class=" btn btn-outline-primary" data-bs-target="#dd" data-bs-slide="next">
+      <i class=" bi bi-arrow-right"></i>
+    </button>
+  </div>
+
+  <hr>
+
+  <h3>Table</h3>
+
+  <table class="table table-bordered table-hover table-striped table-responsive table-sm">
+    <thead>
+      <tr class=" table-primary">
+        <th>#</th>
+        <th>First</th>
+        <th>Last</th>
+        <th>Handle</th>
+      </tr>
+    </thead>
+    <tbody class=" table-group-divider">
+      <tr>
+        <th>1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th>3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+      <tr>
+        <th>1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th>3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+      <tr>
+        <th>1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th>3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
 </html>
