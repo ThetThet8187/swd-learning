@@ -8,7 +8,7 @@
   <title>Bootstrap</title>
   <style>
     body {
-      height: 7000px;
+      height: 9000px;
     }
 
     .slide-img {
@@ -21,10 +21,93 @@
   <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 
-<body>
-  <h1>Min Ga Lar Par</h1>
+<body class=" m-3">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/profile.jpg" alt="" height="50" class=" rounded-3">
+        <h4 class=" d-inline-block">Hello</h4>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+
+        <div class="">
+          <a href="#" class=" btn btn-outline-light">Sign In</a>
+          <a href="#" class=" btn btn-light">Sign Up</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <h1>Min Ga Lar Par</h1>
   <div class="w-100 bg-black p-3 sticky-top"></div>
-  <div class="bg-info p-3 position-fixed" style="z-index: 10; bottom: 30px; right: 30px"></div>
+  <div class="bg-info p-3 position-fixed" style="z-index: 10; bottom: 30px; right: 30px"></div> -->
 
   <div class="bg-white-50 shadow mx-auto my-3 py-5 w-25"></div>
   <div class="bg-white shadow-none mx-auto my-3 py-5 w-25"></div>
@@ -649,6 +732,206 @@
       </tr>
     </tbody>
   </table>
+
+  <hr>
+
+  <h3>FAQ</h3>
+
+  <div class="accordion" id="acc">
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+          Acc item 1
+        </button>
+      </div>
+      <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#acc">
+        <div class="accordion-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad aliquid dolor tempora sed, unde repellendus
+          quisquam, neque maiores impedit vel, voluptates veritatis suscipit aliquam nobis sunt voluptatem omnis
+          placeat!
+        </div>
+      </div>
+    </div>
+
+    <div class=" accordion-item">
+      <div class=" accordion-header">
+        <button class=" accordion-button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+          Acc item 2
+        </button>
+      </div>
+      <div id="collapse2" class=" accordion-collapse collapse" data-bs-parent="#acc">
+        <div class=" accordion-body">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt maiores magni nulla voluptate? Ducimus
+          molestias quia, officia amet tempore excepturi blanditiis iste impedit eos laboriosam illo voluptatum!
+          Quaerat, quam fugiat?
+        </div>
+      </div>
+    </div>
+
+    <div class=" accordion-item">
+      <div class=" accordion-header">
+        <button class=" accordion-button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+          Acc item 3
+        </button>
+      </div>
+      <div id="collapse3" class=" accordion-collapse collapse" data-bs-parent="#acc">
+        <div class=" accordion-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda praesentium natus sunt hic vitae ab a
+          recusandae quidem accusantium, magnam libero dolorem. Modi architecto et quis repellat aspernatur laborum.
+          Consequuntur!
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <hr>
+
+  <div class=" dropdown">
+    <button class=" btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown">
+      Show Menu
+    </button>
+    <ul class=" dropdown-menu">
+      <li>
+        <a class=" dropdown-item" href="#">Menu 1</a>
+        <a class=" dropdown-item" href="#">Menu 2</a>
+        <a class=" dropdown-item" href="#">Menu 3</a>
+        <a class=" dropdown-item" href="#">Menu 4</a>
+        <a class=" dropdown-item" href="#">Menu 5</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class=" dropdown mt-3">
+    <i class=" bi bi-info-circle dropdown-toggle" data-bs-toggle="dropdown"></i>
+    <ul class=" dropdown-menu">
+      <li>
+        <a class=" dropdown-item" href="#">Menu 1</a>
+        <a class=" dropdown-item" href="#">Menu 2</a>
+        <a class=" dropdown-item" href="#">Menu 3</a>
+        <a class=" dropdown-item" href="#">Menu 4</a>
+        <a class=" dropdown-item" href="#">Menu 5</a>
+      </li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <h3>Card</h3>
+  <div class=" card w-50 mb-3">
+    <div class=" card-body">
+      <h4 class=" card-title">
+        This is title.
+      </h4>
+      <p class=" card-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tempore velit, optio quas natus sapiente aliquid
+        distinctio illo doloribus incidunt.
+      </p>
+    </div>
+  </div>
+
+  <div class=" card w-50 mb-3">
+    <div class=" card-body text-center">
+      <h4 class=" card-title">
+        This is title.
+      </h4>
+      <p class=" card-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tempore velit, optio quas natus sapiente aliquid
+        distinctio illo doloribus incidunt.
+      </p>
+    </div>
+  </div>
+
+  <div class=" card w-50 mb-3">
+    <div class=" card-body text-end">
+      <h4 class=" card-title">
+        This is title.
+      </h4>
+      <p class=" card-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tempore velit, optio quas natus sapiente aliquid
+        distinctio illo doloribus incidunt.
+      </p>
+    </div>
+  </div>
+
+  <div class=" card w-50 mb-3">
+    <div class=" card-body">
+      <h4 class=" card-title">
+        This is title.
+      </h4>
+      <p class=" card-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tempore velit, optio quas natus sapiente aliquid
+        distinctio illo doloribus incidunt.
+      </p>
+      <div class=" d-flex justify-content-between">
+        <button class=" btn btn-primary">Click Me</button>
+        <div class=" dropdown">
+          <i class=" bi bi-three-dots-vertical" data-bs-toggle="dropdown"></i>
+          <ul class=" dropdown-menu">
+            <li>
+              <a class=" dropdown-item" href="#">Menu 1</a>
+              <a class=" dropdown-item" href="#">Menu 2</a>
+              <a class=" dropdown-item" href="#">Menu 3</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class=" card w-50 mb-3">
+    <div class=" card-header">Header</div>
+    <div class=" card-body">
+      <h4 class=" card-title">
+        This is title.
+      </h4>
+      <p class=" card-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tempore velit, optio quas natus sapiente aliquid
+        distinctio illo doloribus incidunt.
+      </p>
+    </div>
+    <div class=" card-footer">Footer</div>
+  </div>
+
+  <div class=" card w-50 mb-3">
+    <img src="./img/cover.jpg" class="card-img-top" alt="">
+    <div class=" card-body">
+      <h4 class=" card-title">
+        This is title.
+      </h4>
+      <p class=" card-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tempore velit, optio quas natus sapiente aliquid
+        distinctio illo doloribus incidunt.
+      </p>
+    </div>
+  </div>
+
+  <div class=" card w-50 mb-3">
+    <div class=" card-body">
+      <h4 class=" card-title">
+        This is title.
+      </h4>
+      <p class=" card-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tempore velit, optio quas natus sapiente aliquid
+        distinctio illo doloribus incidunt.
+      </p>
+    </div>
+    <img src="./img/cover.jpg" class="card-img-bottom" alt="">
+  </div>
+
+  <div class="card w-50">
+    <img src="./img/1.jpg" class=" card-img" alt="">
+    <div class=" card-img-overlay">
+      <h4 class=" card-title">Title</h4>
+      <p>
+        Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </div>
+
+
+
 
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
